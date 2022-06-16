@@ -13,20 +13,38 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Common">
+      <UniqueIdentifier>{6c2b393d-3a10-4379-9d3b-8564555cd93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code">
+      <UniqueIdentifier>{22d16fec-76c2-46da-bf6d-2d1fae173ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code\Triangles">
+      <UniqueIdentifier>{f60eddc6-8bf8-476b-b77a-3ab70584bb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code\Shader">
+      <UniqueIdentifier>{3df0f9fc-c6a8-4d2b-b6e0-9136f6e05a20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\admin\Downloads\glad\src\glad.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Hello_Triangles.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Common</Filter>
     </ClCompile>
     <ClCompile Include="Example.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Hello_Triangles.cpp">
+      <Filter>Resource Files\Code\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Resource Files\Code\Shader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Common.h">
+    <ClInclude Include="..\OpenGL_Plugins\Include\Tool\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL_Plugins\Include\Tool\shader_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

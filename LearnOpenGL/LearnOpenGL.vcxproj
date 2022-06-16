@@ -22,9 +22,11 @@
     <ClCompile Include="C:\Users\admin\Downloads\glad\src\glad.c" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Hello_Triangles.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Common.h" />
+    <ClInclude Include="..\OpenGL_Plugins\Include\Tool\Common.h" />
+    <ClInclude Include="..\OpenGL_Plugins\Include\Tool\shader_s.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
