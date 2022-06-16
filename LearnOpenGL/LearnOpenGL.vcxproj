@@ -20,7 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\admin\Downloads\glad\src\glad.c" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="Hello_Triangles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
