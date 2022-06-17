@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3DSys.cpp" />
     <ClCompile Include="C:\Users\admin\Downloads\glad\src\glad.c" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Hello_Triangles.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\OpenGL_Plugins\Include\Tool\Common.h" />

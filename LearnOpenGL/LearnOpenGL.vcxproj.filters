@@ -19,11 +19,20 @@
     <Filter Include="Resource Files\Code">
       <UniqueIdentifier>{22d16fec-76c2-46da-bf6d-2d1fae173ade}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Code\Triangles">
+    <Filter Include="Resource Files\Code\01_Triangles">
       <UniqueIdentifier>{f60eddc6-8bf8-476b-b77a-3ab70584bb3e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Code\Shader">
+    <Filter Include="Resource Files\Code\02_Shader">
       <UniqueIdentifier>{3df0f9fc-c6a8-4d2b-b6e0-9136f6e05a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code\03_Texture">
+      <UniqueIdentifier>{d83abe8e-3b8b-4d35-901e-f9096663472c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code\04_Transform">
+      <UniqueIdentifier>{d5d7694e-912a-446f-a108-7c88c5e6c51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Code\05_3D">
+      <UniqueIdentifier>{ecbbe55a-f871-498c-a180-e371a5d3e2cf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -34,10 +43,19 @@
       <Filter>Resource Files\Common</Filter>
     </ClCompile>
     <ClCompile Include="Hello_Triangles.cpp">
-      <Filter>Resource Files\Code\Triangles</Filter>
+      <Filter>Resource Files\Code\01_Triangles</Filter>
     </ClCompile>
     <ClCompile Include="ShaderProgram.cpp">
-      <Filter>Resource Files\Code\Shader</Filter>
+      <Filter>Resource Files\Code\02_Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Resource Files\Code\03_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Resource Files\Code\04_Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="3DSys.cpp">
+      <Filter>Resource Files\Code\05_3D</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

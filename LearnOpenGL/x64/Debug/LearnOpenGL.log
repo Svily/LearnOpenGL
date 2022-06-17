@@ -1,3 +1,2 @@
-﻿  ShaderProgram.cpp
-D:\VsStudy\LearnOpenGL\LearnOpenGL\ShaderProgram.cpp(81,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+﻿  3DSys.cpp
   LearnOpenGL.vcxproj -> D:\VsStudy\LearnOpenGL\x64\Debug\LearnOpenGL.exe
